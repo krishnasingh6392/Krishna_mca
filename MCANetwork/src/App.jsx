@@ -45,7 +45,7 @@ const pageVariants = {
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-purple-100">
-      <div className="fixed inset-0 bg-[url('/src/assets/pattern.png')] opacity-5"></div>
+      <div className="fixed bg-[url('/src/assets/pattern.png')] opacity-5"></div>
       <Nav />
       <main className="pt-20">
         <Routes>

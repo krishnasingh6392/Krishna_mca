@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const resources = [
   {
@@ -175,23 +176,6 @@ const pyqsYearly = [
 ];
 
 const Resourceweb = () => {
-  const handleDownload = (link) => {
-    if (!link) {
-      console.error("No download link provided");
-      return;
-    }
-
-    // Create a temporary link element
-    const downloadLink = document.createElement("a");
-    downloadLink.href = link;
-    downloadLink.download = link.split("/").pop();
-
-    // Append to body, click, and remove
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
-  };
-
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-5">
       <h1 className="text-4xl font-bold text-center text-blue-700 mb-12">
@@ -212,16 +196,21 @@ const Resourceweb = () => {
               </h2>
               <ul className="space-y-3">
                 {subject.units.map((unit, idx) => (
-                  <li key={idx}>
-                    <a
-                      href={unit?.link}
-                      download
-                      className={`text-green-600 hover:underline cursor-pointer ${
-                        !unit.link ? "opacity-50 cursor-not-allowed" : ""
-                      }`}
-                    >
-                      📄 Download {unit.name}
-                    </a>
+                  <li key={idx + "" + unit.link}>
+                    {unit?.link ? (
+                      <a
+                        href={unit.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-green-600 hover:underline"
+                        aria-label={`Download ${unit.name}`}
+                        title={`Download ${unit.name}`}
+                      >
+                        📄 Download {unit.name}
+                      </a>
+                    ) : (
+                      <span className="text-gray-500">No link available</span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -246,6 +235,8 @@ const Resourceweb = () => {
               href={pyq.link}
               download
               className="text-green-600 hover:underline block text-center w-full"
+              aria-label={`Download ${pyq.year} ${pyq.type} Exam`}
+              title={`Download ${pyq.year} ${pyq.type} Exam`}
             >
               📥 Download PYQ
             </a>
