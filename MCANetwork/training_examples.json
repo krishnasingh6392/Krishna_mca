@@ -1,0 +1,98 @@
+{
+  "training_examples": [
+    {
+      "category": "faculty",
+      "examples": [
+        {
+          "question": "Who are the faculty members in MCA department?",
+          "answer": "The MCA department has the following faculty members:\n1. Dr. D.S Singh - Professor & Head\n2. Prof. Shiva Prakash - Professor\n3. Prof. U.C. Jaiswal - Professor\n4. Dr. Jay Prakash - Associate Professor"
+        },
+        {
+          "question": "Who is the head of MCA department?",
+          "answer": "Dr. D.S Singh is the Professor & Head of the MCA department at MMMUT."
+        },
+        {
+          "question": "What is the designation of Prof. Shiva Prakash?",
+          "answer": "Prof. Shiva Prakash is a Professor in the MCA department at MMMUT."
+        }
+      ]
+    },
+    {
+      "category": "study_resources",
+      "examples": [
+        {
+          "question": "What study materials are available for OOPS with C++?",
+          "answer": "For OOPS with C++, the following study materials are available:\n- Unit 1: https://drive.google.com/file/d/1C619BFrY1uaTftw3NidIro1fbKPkreNK/view?usp=sharing\n- Unit 2: /files/Unit-2 MCA-112 dbms notes.pdf\n- Unit 3: /files/Unit-3 MCA-112 dbms notes.pdf\n- Unit 4: /files/Unit-4.pdf"
+        },
+        {
+          "question": "Where can I find DBMS study materials?",
+          "answer": "DBMS study materials are available for the following units:\n- Unit 1: /files/dbms_1\n- Unit 2: /files/Unit-2 MCA-112 dbms notes.pdf\n- Unit 3: /files/Unit-3 MCA-112 dbms notes.pdf\n- Unit 4: /files/Unit-4 MCA-112 dbms notes.pdf"
+        },
+        {
+          "question": "Are there any previous year question papers available?",
+          "answer": "Yes, previous year question papers are available for:\n- 2024 Minor Exam: /files/pyq_minor_2024.pdf\n- 2024 Major Exam: /files/pyq_major_2024.pdf"
+        }
+      ]
+    },
+    {
+      "category": "csse_society",
+      "examples": [
+        {
+          "question": "What is CSSE society?",
+          "answer": "CSSE (Computer Society of Software Engineers) is the departmental society of the MCA Department at MMMUT Gorakhpur. It was founded in 2013 by Ankit Porwal and Vivek Samele. The society aims to develop managerial and soft skills of students, organize activities for social awareness, and increase mutual bonding among students."
+        },
+        {
+          "question": "What events does CSSE organize?",
+          "answer": "CSSE organizes both formal and informal events:\n\nFormal Events:\n- Technical Presentation\n- Debate\n- Extempore\n- Group Discussion\n- Web Wonders\n- Creative Writing\n- Hackathon\n\nInformal Events:\n- Singing (Solo & Group)\n- Dancing (Solo & Group)\n- Art & Craft\n- Mehndi\n- Open Mic\n- Drama\n- Fashion Show"
+        },
+        {
+          "question": "When was CSSE founded and by whom?",
+          "answer": "CSSE was founded in 2013 by Ankit Porwal and Vivek Samele."
+        }
+      ]
+    },
+    {
+      "category": "alumni",
+      "examples": [
+        {
+          "question": "Can you tell me about MCA alumni?",
+          "answer": "One of our notable alumni is Gaurav Dixit from the 2024 batch, who is currently working as an Assistant Professor at Galgotias University. You can connect with him on LinkedIn: https://www.linkedin.com/in/krishna-nand-kn/"
+        },
+        {
+          "question": "Where do MCA alumni work?",
+          "answer": "Our alumni are placed in various prestigious positions. For example, Gaurav Dixit (2024 batch) is currently working as an Assistant Professor at Galgotias University."
+        }
+      ]
+    },
+    {
+      "category": "placements",
+      "examples": [
+        {
+          "question": "Which companies visit MMMUT for MCA placements?",
+          "answer": "The following companies regularly recruit MCA students from MMMUT:\n- IBM\n- ACCENTURE\n- TO THE NEW\n- HIREMI\n- QSS\n- BIT\n- STTREEBO\n- LTIMINDTREE\n- CYFUTURE\n- GFG\n- X FANATICAL\n- JOSH TECHNOLOGY"
+        },
+        {
+          "question": "What are the top recruiters for MCA students?",
+          "answer": "Top recruiters for MCA students include major companies like IBM, ACCENTURE, TO THE NEW, HIREMI, QSS, BIT, STTREEBO, LTIMINDTREE, CYFUTURE, GFG, X FANATICAL, and JOSH TECHNOLOGY."
+        }
+      ]
+    },
+    {
+      "category": "mca_program",
+      "examples": [
+        {
+          "question": "Tell me about the MCA program at MMMUT",
+          "answer": "The MCA program at Madan Mohan Malaviya University of Technology (MMMUT), Gorakhpur is a 2-year program designed to prepare students for the dynamic world of computing, tech innovations, and digital transformation. The program is AICTE Approved & Nationally Ranked, with an Industry-Driven Curriculum, Global Exposure, and a Strong Alumni Network."
+        },
+        {
+          "question": "What are the research areas in MCA?",
+          "answer": "The MCA program focuses on several research areas including:\n- Artificial Intelligence & ML\n- Cybersecurity & Ethical Hacking\n- IoT & Smart Systems\n- Cloud Computing & Big Data Analytics"
+        },
+        {
+          "question": "Where is MMMUT located?",
+          "answer": "MMMUT is located in Gorakhpur, Uttar Pradesh."
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,199 @@
+{
+  "faculty": [
+    {
+      "name": "D.S Singh",
+      "designation": "Professor & Head",
+      "image": "ds-singh.jpg",
+      "department": "MCA",
+      "university": "MMMUT"
+    },
+    {
+      "name": "Prof. Shiva Prakash",
+      "designation": "Professor",
+      "image": "shiva-prakash.jpeg",
+      "department": "MCA",
+      "university": "MMMUT"
+    },
+    {
+      "name": "Prof. U.C. Jaiswal",
+      "designation": "Professor",
+      "image": "rkd.jpg",
+      "department": "MCA",
+      "university": "MMMUT"
+    },
+    {
+      "name": "Dr. Jay Prakash",
+      "designation": "Associate Professor",
+      "image": "prachi.png",
+      "department": "MCA",
+      "university": "MMMUT"
+    }
+  ],
+  "study_resources": {
+    "subjects": [
+      {
+        "name": "oops with c++",
+        "units": [
+          {
+            "name": "Unit 1",
+            "link": "https://drive.google.com/file/d/1C619BFrY1uaTftw3NidIro1fbKPkreNK/view?usp=sharing"
+          },
+          {
+            "name": "Unit 2",
+            "link": "/files/Unit-2 MCA-112 dbms notes.pdf"
+          },
+          {
+            "name": "Unit 3",
+            "link": "/files/Unit-3 MCA-112 dbms notes.pdf"
+          },
+          {
+            "name": "Unit 4",
+            "link": "/files/Unit-4.pdf"
+          }
+        ]
+      },
+      {
+        "name": "database management system",
+        "units": [
+          {
+            "name": "Unit 1",
+            "link": "/files/dbms_1"
+          },
+          {
+            "name": "Unit 2",
+            "link": "/files/Unit-2 MCA-112 dbms notes.pdf"
+          },
+          {
+            "name": "Unit 3",
+            "link": "/files/Unit-3 MCA-112 dbms notes.pdf"
+          },
+          {
+            "name": "Unit 4",
+            "link": "/files/Unit-4 MCA-112 dbms notes.pdf"
+          }
+        ]
+      }
+    ],
+    "pyqs": [
+      {
+        "year": "2024",
+        "type": "Minor",
+        "link": "/files/pyq_minor_2024.pdf"
+      },
+      {
+        "year": "2024",
+        "type": "Major",
+        "link": "/files/pyq_major_2024.pdf"
+      }
+    ]
+  },
+  "csse_society": {
+    "name": "Computer Society of Software Engineers",
+    "founded": "2013",
+    "founders": ["Ankit Porwal", "Vivek Samele"],
+    "objectives": [
+      "Develop managerial and soft skills of students",
+      "Organize activities for social awareness",
+      "Increase mutual bonding among students"
+    ],
+    "events": {
+      "formal": [
+        "Technical Presentation",
+        "Debate",
+        "Extempore",
+        "Group Discussion",
+        "Web Wonders",
+        "Creative Writing",
+        "Hackathon"
+      ],
+      "informal": [
+        "Singing – Solo & Group",
+        "Dancing – Solo & Group",
+        "Art & Craft",
+        "Mehndi",
+        "Open Mic",
+        "Drama",
+        "Fashion Show"
+      ]
+    }
+  },
+  "alumni": [
+    {
+      "name": "Gaurav Dixit",
+      "batch": "2024",
+      "current_position": "Assistant Professor",
+      "company": "Galgotias University",
+      "linkedin": "https://www.linkedin.com/in/krishna-nand-kn/"
+    }
+  ],
+  "placements": {
+    "recruiters": [
+      {
+        "name": "IBM",
+        "logo": "ibm.jpg"
+      },
+      {
+        "name": "ACCENTURE",
+        "logo": "accenture.png"
+      },
+      {
+        "name": "TO THE NEW",
+        "logo": "to the new.jpg"
+      },
+      {
+        "name": "HIREMI",
+        "logo": "hiremi.png"
+      },
+      {
+        "name": "QSS",
+        "logo": "qss.png"
+      },
+      {
+        "name": "BIT",
+        "logo": "bit.png"
+      },
+      {
+        "name": "STTREEBO",
+        "logo": "streebo.jpeg"
+      },
+      {
+        "name": "LTIMINDTREE",
+        "logo": "ltimindtree.webp"
+      },
+      {
+        "name": "CYFUTURE",
+        "logo": "cyfuture.png"
+      },
+      {
+        "name": "GFG",
+        "logo": "gfg.jpg"
+      },
+      {
+        "name": "X FANATICAL",
+        "logo": "x fanatical.webp"
+      },
+      {
+        "name": "JOSH TECHNOLOGY",
+        "logo": "josh.png"
+      }
+    ]
+  },
+  "mca_program": {
+    "university": "Madan Mohan Malaviya University of Technology (MMMUT)",
+    "location": "Gorakhpur, Uttar Pradesh",
+    "duration": "2 years",
+    "description": "The Master of Computer Applications (MCA) program is designed to prepare students for the dynamic world of computing, tech innovations, and digital transformation.",
+    "highlights": [
+      "AICTE Approved & Nationally Ranked",
+      "Industry-Driven Curriculum",
+      "Global Exposure",
+      "Strong Alumni Network"
+    ],
+    "research_areas": [
+      "Artificial Intelligence & ML",
+      "Cybersecurity & Ethical Hacking",
+      "IoT & Smart Systems",
+      "Cloud Computing & Big Data Analytics"
+    ]
+  }
+} 
