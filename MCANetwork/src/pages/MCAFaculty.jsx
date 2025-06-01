@@ -3,6 +3,12 @@ import photo1 from "../images/ds-singh.jpg";
 import photo2 from "../images/shiva-prakash.jpeg";
 import photo3 from "../images/rkd.jpg";
 import photo4 from "../images/prachi.png";
+import ucjaiswal from "../images/uc-jaiswal.jpg";
+import jp from "../images/jp.jpg";
+import prachi from "../images/prachi.jpeg";
+import sp from "../images/sarvapal-singh.jpg";
+import preeti from "../images/preeti.jpeg";
+import vijay from "../images/vijay tiwari.jpg";
 
 const facultyMembers = [
   {
@@ -18,32 +24,32 @@ const facultyMembers = [
   {
     name: "Prof. U.C. Jaiswal",
     designation: "Professor",
+    src: ucjaiswal,
+  },
+  {
+    name: "Prof S.P singh",
+    designation: " Professor",
+    src: sp,
+  },
+  {
+    name: "Prof R.K.dwiedi",
+    designation: "ASSISTANT PROFESSOR",
     src: photo3,
   },
   {
-    name: "Dr. Jay Prakash",
-    designation: "Associate Professor",
-    src: photo4,
+    name: "vijay Tiwari",
+    designation: " Assistant Professor",
+    src: vijay,
   },
   {
-    name: "D.S Singh",
-    designation: "Professor & Head",
-    src: photo1,
+    name: "Prachi Verma",
+    designation: " Assistant Professor",
+    src: prachi,
   },
   {
-    name: "Prof. Shiva Prakash",
-    designation: "Professor",
-    src: photo2,
-  },
-  {
-    name: "Prof. U.C. Jaiswal",
-    designation: "Professor",
-    src: photo3,
-  },
-  {
-    name: "Dr. Jay Prakash",
-    designation: "Associate Professor",
-    src: photo4,
+    name: "Preeti Singh",
+    designation: "Assistant Professor",
+    src: preeti,
   },
 ];
 

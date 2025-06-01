@@ -70,8 +70,8 @@ const Footer = () => {
 
           <div className="mt-10">
             <iframe
-              className="w-full h-64 rounded shadow"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.308713359645!2d83.1873446753696!3d26.748800265059842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39915cb6dbf9a1fd%3A0x31513cdcfb26cf0f!2sMMMUT%2C%20Gorakhpur!5e0!3m2!1sen!2sin!4v1713177399316!5m2!1sen!2sin"
+              className="w-full h-[450px] rounded-lg shadow-lg border-0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.4054633525798!2d83.43055267488877!3d26.731434267858592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39915ca3e2aa136b%3A0xc039bdf0211338a9!2sMMM%20University%20of%20Technology!5e0!3m2!1sen!2sin!4v1746211920728!5m2!1sen!2sin"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

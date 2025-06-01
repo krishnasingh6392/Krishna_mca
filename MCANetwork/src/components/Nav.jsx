@@ -15,6 +15,8 @@ const Nav = () => {
     { path: "/about-mca", label: "About MCA" },
     { path: "/galleries", label: "Gallery" },
     { path: "/about-mmmut", label: "About MMMUT" },
+    { path: "/contact", label: "Contact Form" },
+    { path: "/admin/contacts", label: "Admin Contacts" },
   ];
 
   return (
@@ -24,7 +26,7 @@ const Nav = () => {
       transition={{ duration: 0.5 }}
       className="fixed top-0 left-0 right-0 z-50 bg-blue-300 backdrop-blur-md shadow-sm"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <motion.div
             whileHover={{ scale: 1.05 }}

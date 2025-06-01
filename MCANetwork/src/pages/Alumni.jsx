@@ -1,106 +1,64 @@
 import React from "react";
-import photo1 from "../images/shiva-prakash.jpeg";
-
-const alumni = [
-  {
-    name: "Gaurav Dixit",
-    src: photo1,
-    batch: 2024,
-    company: "Galgotias University",
-    linkedin: "https://www.linkedin.com/in/krishna-nand-kn/",
-    message:
-      "Gaurav Dixit, a proud alumnus of the MCA program at MMMUT, is currently serving as an Assistant Professor at Galgotias University. His dedication to education and continuous learning reflects the values and academic excellence instilled during his time at the university.",
-  },
-  {
-    name: "Krishna Singh",
-    src: photo1,
-    batch: 2024,
-    company: "Galgotias University",
-    linkedin: "https://www.linkedin.com/in/krishna-nand-kn/",
-    message:
-      "Krishna Singh, a proud alumnus of the MCA program at MMMUT, is currently serving as an Assistant Professor at Galgotias University. His dedication to education and continuous learning reflects the values and academic excellence instilled during his time at the university.",
-  },
-  {
-    name: "Krishna Singh",
-    src: photo1,
-    batch: 2024,
-    company: "Galgotias University",
-    linkedin: "https://www.linkedin.com/in/krishna-nand-kn/",
-    message:
-      "Krishna Singh, a proud alumnus of the MCA program at MMMUT, is currently serving as an Assistant Professor at Galgotias University. His dedication to education and continuous learning reflects the values and academic excellence instilled during his time at the university.",
-  },
-  {
-    name: "Gaurav Dixit",
-    src: photo1,
-    batch: 2024,
-    company: "Galgotias University",
-    linkedin: "https://www.linkedin.com/in/krishna-nand-kn/",
-    message:
-      "Gaurav Dixit, a proud alumnus of the MCA program at MMMUT, is currently serving as an Assistant Professor at Galgotias University. His dedication to education and continuous learning reflects the values and academic excellence instilled during his time at the university.",
-  },
-  {
-    name: "Krishna Singh",
-    src: photo1,
-    batch: 2024,
-    company: "Galgotias University",
-    linkedin: "https://www.linkedin.com/in/krishna-nand-kn/",
-    message:
-      "Krishna Singh, a proud alumnus of the MCA program at MMMUT, is currently serving as an Assistant Professor at Galgotias University. His dedication to education and continuous learning reflects the values and academic excellence instilled during his time at the university.",
-  },
-  {
-    name: "Krishna Singh",
-    src: photo1,
-    batch: 2024,
-    company: "Galgotias University",
-    linkedin: "https://www.linkedin.com/in/krishna-nand-kn/",
-    message:
-      "Krishna Singh, a proud alumnus of the MCA program at MMMUT, is currently serving as an Assistant Professor at Galgotias University. His dedication to education and continuous learning reflects the values and academic excellence instilled during his time at the university.",
-  },
-];
+import vinay from "../images/vinay jain.png";
+import javed from "../images/javed khan.png";
+import soren from "../images/soren.png";
 
 const Alumni = () => {
+  // Array of alumni objects
+  const alumniData = [
+    {
+      id: 1,
+      name: "Vinay Kumar Jain",
+      image: vinay,
+      company: "Accenture",
+      linkedin: "https://www.linkedin.com/in/jainvinay/",
+    },
+    {
+      id: 2,
+      name: "Sonika Sharan",
+      image: soren,
+      company: "PureSoftware Ltd",
+      linkedin: "https://www.linkedin.com/in/sonika-sharan-12a5a2158/",
+    },
+    {
+      id: 3,
+      name: "Javed Khan",
+      image: javed,
+      company: "Go Developer",
+      linkedin: "https://www.linkedin.com/in/javed9700/",
+    },
+  ];
+
   return (
-    <div className="p-8">
-      <h2 className="text-4xl font-bold text-center text-blue-900 mb-8">
-        Our Alumni
-      </h2>
-      <div className="flex flex-wrap justify-center items-center gap-8">
-        {alumni.map((alumniItem, index) => (
+    <div className="text-center py-10">
+      <h2 className="text-3xl font-semibold mb-6">Our Alumni</h2>
+      <div className="flex justify-center gap-8 flex-wrap">
+        {alumniData.map((alumni) => (
           <div
-            key={index}
-            className="card bg-gradient-to-br from-blue-200 to-blue-100 w-96 shadow-md hover:shadow-lg transition-shadow p-6 rounded-lg"
+            key={alumni.id}
+            className="w-64 p-4 border border-gray-300 rounded-lg shadow-md transform transition-all duration-300 hover:scale-105"
           >
-            <figure className="flex flex-col items-center gap-4">
-              <img
-                src={alumniItem.src}
-                className="rounded-xl h-48 w-48 object-cover"
-                alt={`${alumniItem.name} - MCA Alumni`}
-              />
-              <div className="text-center">
-                <h3 className="text-xl font-semibold text-gray-800">
-                  {alumniItem.name}
-                </h3>
-                <p className="text-gray-600">Batch: {alumniItem.batch}</p>
-                <p className="text-gray-600">Company: {alumniItem.company}</p>
-                <a
-                  href={alumniItem.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-700 underline"
-                >
-                  LinkedIn Profile
-                </a>
-              </div>
-              <p className="text-justify bg-blue-50 w-full p-4 rounded-lg shadow-sm">
-                {alumniItem.message}
-              </p>
-            </figure>
+            <img
+              src={alumni.image}
+              alt={alumni.name}
+              className="h-32 w-32 object-cover rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-xl font-semibold mb-1">{alumni.name}</h3>
+            <p className="text-gray-600 mb-2">{alumni.company}</p>
+            <a
+              href={alumni.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              View LinkedIn Profile
+            </a>
           </div>
         ))}
       </div>
       <div className="flex justify-center mt-6">
         <a
-          href="/alumni" // Replace with your actual route/page
+          href="/Alumni" // Replace with your actual route/page
           className="bg-blue-400 text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-blue-600 transition duration-300"
         >
           View Alumni

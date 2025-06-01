@@ -7,20 +7,20 @@ const resources = [
     units: [
       {
         name: "Unit 1",
-        link: "https://drive.google.com/file/d/1C619BFrY1uaTftw3NidIro1fbKPkreNK/view?usp=sharing",
+        link: "/files/Unit-1_oops.pdf",
       },
-      { name: "Unit 2", link: "/files/Unit-2 MCA-112 dbms notes.pdf" },
-      { name: "Unit 3", link: "/files/Unit-3 MCA-112 dbms notes.pdf" },
-      { name: "Unit 4", link: "/files/Unit-4.pdf" },
+      { name: "Unit 2", link: "/files/Unit-2_oops.pdf" },
+      { name: "Unit 3", link: "/files/Unit-3_oops.pdf" },
+      { name: "Unit 4", link: "/files/Unit-4_oops.pdf" },
     ],
   },
   {
     subject: "database management system",
     units: [
-      { name: "Unit 1", link: "/files/dbms_1" },
-      { name: "Unit 2", link: "/files/Unit-2 MCA-112 dbms notes.pdf" },
-      { name: "Unit 3", link: "/files/Unit-3 MCA-112 dbms notes.pdf" },
-      { name: "Unit 4", link: "/files/Unit-4 MCA-112 dbms notes.pdf" },
+      { name: "Unit 1", link: "/files/Unit-1_dbms.pdf" },
+      { name: "Unit 2", link: "/files/Unit-2_dbms.pdf" },
+      { name: "Unit 3", link: "/files/Unit-3_dbms.pdf" },
+      { name: "Unit 4", link: "/files/Unit-4_dbms.pdf" },
     ],
   },
   {
